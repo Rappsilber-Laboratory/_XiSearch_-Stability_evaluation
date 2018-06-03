@@ -53,7 +53,7 @@ def generate_output_file(input_file, output_file, chosen_candidates):
                     # write another line of chosen candidate protein
                     else:
                         o.write(lines[line_belonging_to_this_prot])
-    return
+    return output_file
 
 
 def generate_random_protein_list(input_file, output_file="chosen_random_candidates.fasta", desired_no=1000):
@@ -68,6 +68,7 @@ def generate_random_protein_list(input_file, output_file="chosen_random_candidat
     # make sure that identical chosen candidates yield identical output (same order of proteins)
     chosen_candidates.sort()
     generate_output_file(input_file, output_file, chosen_candidates)
+    return output_file
 
 
 # Command line control arguments
