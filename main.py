@@ -72,6 +72,7 @@ def execute_xi_xifdr_pipeline(experiment, lst_fastas, str_run, path_run, xi_xifd
             xi_config=xi_xifdr_settings_dict['xi_config'],
             peak_files=experiment.peak_files,
             # optional xi settings
+            xi_path=xi_xifdr_settings_dict['xi_path'],
             xi_memory=xi_xifdr_settings_dict['xi_memory'],
             additional_xi_parameters=xi_xifdr_settings_dict['additional_xi_parameters'],
             # optional xifdr settings
