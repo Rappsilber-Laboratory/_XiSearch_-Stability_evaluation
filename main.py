@@ -9,8 +9,8 @@ Output:
 XiFDR results
 """
 
-from lib import pipeline
-from lib.XiWrapper import XiSearchOutOfMemoryException, XiSearchDaemoniseFailureException
+from xlSearchSpaceLibs import pipeline
+from xlSearchSpaceLibs.XiWrapper import XiSearchOutOfMemoryException, XiSearchDaemoniseFailureException
 import time
 import os
 import fasta_randomizer
