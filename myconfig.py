@@ -45,6 +45,7 @@ xi_xifdr_settings_dict = {
     'xifdr_settings': {
         'pepfdr': "10",
         'additional_xifdr_arguments': [],
-        'reportfactor': "10000"
+        'reportfactor': "10000",
+        'xifdr_path': r'/data/rappstore/users/hschiebenhoefer/scripts/xiFDR-versions/xiFDRDB-1.1.25.55-jar-with-dependencies.jar'
     }
 }

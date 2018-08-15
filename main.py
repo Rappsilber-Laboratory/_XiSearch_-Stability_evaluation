@@ -78,7 +78,9 @@ def execute_xi_xifdr_pipeline(experiment, lst_fastas, str_run, path_run, xi_xifd
             # optional xifdr settings
             pepfdr=xi_xifdr_settings_dict['xifdr_settings']['pepfdr'],
             reportfactor=xi_xifdr_settings_dict['xifdr_settings']['reportfactor'],
-            additional_xifdr_arguments=xi_xifdr_settings_dict['xifdr_settings']['additional_xifdr_arguments'])
+            additional_xifdr_arguments=xi_xifdr_settings_dict['xifdr_settings']['additional_xifdr_arguments'],
+            xifdr_filename=xi_xifdr_settings_dict['xifdr_settings']['xifdr_path']
+        )
     except XiSearchDaemoniseFailureException as e:
         logging.error("XiSearch threw daemonising exception for run '{}'"
                       .format(str_run, experiment.name))
