@@ -35,7 +35,7 @@ xi_xifdr_settings_dict = {
     # same config file for all searches
     'xi_config': r"../../Data/Input/170322_OCCM_random_DB_test/xi_config.cfg",
     'xi_memory': '100G',
-    'xi_path': r"/data/rappstore/users/hschiebenhoefer/scripts/xiSearch-versions/XiSearch_1.6.731.jar"
+    'xi_path': r"/data/rappstore/users/hschiebenhoefer/scripts/xiSearch-versions/XiSearch_1.6.731.jar",
     'additional_xi_parameters': [
         "--xiconf=TOPMATCHESONLY:true",
         "--xiconf=tolerance:fragment:10ppm",
